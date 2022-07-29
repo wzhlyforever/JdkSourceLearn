@@ -109,6 +109,7 @@ public interface ScheduledExecutorService extends ExecutorService {
      */
     public ScheduledFuture<?> schedule(Runnable command,
                                        long delay, TimeUnit unit);
+    // 创建并执行在给定延迟后启用的 ScheduledFuture。
 
     /**
      * Creates and executes a ScheduledFuture that becomes enabled after the
